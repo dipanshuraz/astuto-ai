@@ -25,3 +25,29 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/* Loader */
+.loader {
+  border: 2px solid #4caf50; /* Green border */
+  border-top: 6px solid transparent; /* Transparent top border */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite; /* Rotate animation */
+  margin: auto; /* Center the loader */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+body {
+  background: #EEF1F6;
+  color : black
+}
